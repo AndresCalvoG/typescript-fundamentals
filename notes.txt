@@ -3,3 +3,7 @@
 npx tsc path/file.ts --target es6  --> transpile typescript to javascript in version es6
 
 npx tsc path/file.ts --target es6 --outDir dist -->  use dist folder like output dir
+
+npx tsc --init --> para generar archivo tsconfig.json
+
+npx tsc --watch --> activa un observador que transpila los cambios en los archivos ts
