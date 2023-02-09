@@ -1,0 +1,5 @@
+//@ts-check  -->  flag to check javascript files
+
+npx tsc path/file.ts --target es6  --> transpile typescript to javascript in version es6
+
+npx tsc path/file.ts --target es6 --outDir dist -->  use dist folder like output dir
